@@ -29,5 +29,54 @@ Large Device: above 993 px  */
         width: 100%;
         margin-top: 0;
     }
+
+    .banner-text-heading{
+        font-size: 38px;
+        font-weight: 700;
+    }
+
+
+/* change-your-habit-section */
+.habits{
+    /* display: grid; */
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+
     
+/* meet-our-team-section */
+.team{
+    /* display: grid; */
+    grid-template-columns: repeat(1, 1fr);
+    /* gap: 20px;
+    background-color: #FFFFFF1A;
+    padding: 20px;
+    border-radius: 15px; */
+}
+
+
+
+    /* footer section */
+    .footer-options{
+        flex-direction: column;
+        row-gap: 40px;
+    } 
+
+    .footer-main{
+        /* display: flex;
+        flex-direction: column;
+        row-gap: 20px; */
+        width: 100%;
+    }
+
+    .footer-tertiary{
+        width: 100%;
+    }
+    
+    .footer-secondary{
+        /* display: flex;
+        flex-direction: column;
+        row-gap: 10px; */
+        width: 50%;
+    }
 }
