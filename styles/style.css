@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    /* margin: 0 190px 0 190px; */
+    margin: 0 10% ;
+    background-color: black;
+}
+
+/* Shared styles */
+.btn-primary{
+    border-radius: 46px;
+    background-color: #E6533C;
+    padding: 8px 20px 8px 20px;
+    border: none;
+}
+
+
+
+/* navbar styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 57px;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    gap: 47px;
+    border: 2px solid #FFFFFF1A;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+       
+}
+
+.ham-burger-menu{
+    display:none;
+}
+
+.nav-title{
+    font-size: 36px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+
+
+
+
+
+/* banner styles */
+.banner{
+    display: flex;
+    gap: 167px;
+}
+
+.banner-text{
+    color: white;
+    width: 40%;
+    margin-top: 100px;
+}
+
+.banner-img img{
+    width: 100%;
+}
